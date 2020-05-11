@@ -347,7 +347,7 @@
 		6EFF9AE1245AAFC800C98FF3 /* UIImage+UBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UBHelpers.h"; sourceTree = "<group>"; };
 		6EFF9AE2245AAFC800C98FF3 /* UIImage+UBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UBHelpers.m"; sourceTree = "<group>"; };
 		6EFF9AE4245AD18D00C98FF3 /* NSInformTracingEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSInformTracingEndViewController.swift; sourceTree = "<group>"; };
-		8E81CC95241FCC7D006F2437 /* DP3TApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DP3TApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E81CC95241FCC7D006F2437 /* Eesti DP3T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eesti DP3T.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E81CC98241FCC7D006F2437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E81CC9C241FCC7D006F2437 /* NSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewController.swift; sourceTree = "<group>"; };
 		8E81CCA1241FCC7F006F2437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -820,7 +820,7 @@
 		8E81CC96241FCC7D006F2437 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E81CC95241FCC7D006F2437 /* DP3TApp.app */,
+				8E81CC95241FCC7D006F2437 /* Eesti DP3T.app */,
 				8E81CCAB241FCC7F006F2437 /* DP3TAppTests.xctest */,
 				242D2272245C4BD8005DAEA8 /* DP3TAppCalibration.app */,
 			);
@@ -994,7 +994,7 @@
 				242D2274245C4BE6005DAEA8 /* DP3TSDK */,
 			);
 			productName = IVC;
-			productReference = 8E81CC95241FCC7D006F2437 /* DP3TApp.app */;
+			productReference = 8E81CC95241FCC7D006F2437 /* Eesti DP3T.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8E81CCAA241FCC7F006F2437 /* DP3TAppTests */ = {
@@ -1024,7 +1024,7 @@
 				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = Ubique;
+				ORGANIZATIONNAME = Bytelogics;
 				TargetAttributes = {
 					8E81CC94241FCC7D006F2437 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -1669,14 +1669,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = D52J62XJX3;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytelogics.dp3t;
+				PRODUCT_NAME = "Eesti DP3T";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1836,14 +1836,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = D52J62XJX3;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytelogics.dp3t;
+				PRODUCT_NAME = "Eesti DP3T";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1858,14 +1858,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = D52J62XJX3;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytelogics.dp3t;
+				PRODUCT_NAME = "Eesti DP3T";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1983,14 +1983,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = D52J62XJX3;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytelogics.dp3t;
+				PRODUCT_NAME = "Eesti DP3T";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -2086,14 +2086,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = D52J62XJX3;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytelogics.dp3t;
+				PRODUCT_NAME = "Eesti DP3T";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
