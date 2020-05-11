@@ -16,7 +16,7 @@ class NSCodeControl: UIView {
 
     // MARK: - Input number
 
-    private let numberOfInputs = 12
+    private let numberOfInputs = 8
     private var controls: [NSCodeSingleControl] = []
     private var currentControl: NSCodeSingleControl?
 
